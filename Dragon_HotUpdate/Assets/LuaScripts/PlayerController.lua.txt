@@ -1,0 +1,20 @@
+local U = CS.UnityEngine
+
+local player
+
+function start()
+    player = self:GetLua("PlayerCha.lua")  -- unity    player = GetComponent<PlayerCharacter>();
+end
+
+function update()
+    local h = U.Input.GetAxis("Horizontal")
+    local v = U.Input.GetAxis("Vertical")
+
+    local m = U.Vector3(h, v, 0)
+
+    player.Move(m)
+
+    if (U.Input.GetButton("Fire1")) then
+        player.Fire()
+    end
+end

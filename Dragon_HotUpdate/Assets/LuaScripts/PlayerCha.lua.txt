@@ -1,0 +1,39 @@
+local U = CS.UnityEngine
+
+local border = {
+    left = -2.7,
+    right = 2.7,
+    top = 3.7,
+    bottom = -3.7,
+}
+
+local speed = 3
+local fireCD = 0.1
+local lastFireTime = 0
+
+function Move(move)
+    local pos = self.transform.position + move * speed * U.Time.deltaTime;
+
+    pos.x = U.Mathf.Clamp(pos.x, border.left, border.right)
+    pos.y = U.Mathf.Clamp(pos.y, border.bottom, border.top)
+
+    self.transform.position = pos
+end
+
+function Fire()
+    if (U.Time.time < lastFireTime + fireCD) then
+        return
+    end
+    local pos = self.transform.position + U.Vector3(0, 0.8, 0)
+    U.GameObject.Instantiate(prefabBullet, pos, U.Quaternion.identity)
+
+    lastFireTime = U.Time.time;
+end
+
+function ontriggerenter2d(collision)
+    U.GameObject.Destroy(self.gameObject)
+	if prefabBoomEffect then
+		local go = self.Instantiate(prefabBoomEffect, self.transform.position, self.transform.rotation)
+		go.transform.localScale = U.Vector3(1.5, 1.5, 1.5)
+	end
+end

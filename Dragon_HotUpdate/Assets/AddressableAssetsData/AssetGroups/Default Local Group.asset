@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 150ee93297da6da48902f5ad72b9b8ea
+  m_SerializeEntries:
+  - m_GUID: 517e82bd61f8857468be87c64e48e9b2
+    m_Address: sunny_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ad50498ce2fbbf46beea1b3e0373237
+    m_Address: "Player\u98DE\u9F99.prefab"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f3cbd19d09e8b140aa8fa2c08d481b6
+    m_Address: PlayerCha.lua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34aa4ff7886308748a6f4a00e500585c
+    m_Address: PlayerController.lua
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 89fd35991f14bcd4c89582968ef27522, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cffbeeccdc02c5448b2554d2cb73cc19, type: 2}
+    - {fileID: 11400000, guid: 9e5991a86f178f747875106c2503383c, type: 2}

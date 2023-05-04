@@ -1,0 +1,7 @@
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\obj\Debug\闭包测试.csproj.AssemblyReference.cache
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\obj\Debug\闭包测试.csproj.CoreCompileInputs.cache
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\LevelPlay\levelplay-edu\课程4_有道皮皮关网课\PPT\Lua教程\参考代码\C#闭包测试\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
